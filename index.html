@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alejandro Villa | AI Engineer</title>
+    <meta name="description" content="Portfolio de Alejandro Villa — AI Engineer en formación, apasionado por la inteligencia artificial y el desarrollo de agentes inteligentes.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#eef7ff',
+                            100: '#d9edff',
+                            200: '#bce0ff',
+                            400: '#60b5ff',
+                            500: '#3b9eff',
+                            600: '#1a7ff5',
+                            700: '#1366d9',
+                            800: '#1654b0',
+                            900: '#18478a',
+                            950: '#0f2d5c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-950 text-gray-200 font-sans">
+
+    <header class="border-b border-gray-800">
+        <nav class="max-w-5xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <a href="index.html" class="text-xl font-bold text-white">AV<span class="text-brand-500">.</span></a>
+            <div class="flex gap-6 text-sm font-medium">
+                <a href="index.html" class="text-brand-400 hover:text-brand-300 transition">Home</a>
+                <a href="proyectos.html" class="text-gray-400 hover:text-white transition">Proyectos</a>
+                <a href="contacto.html" class="text-gray-400 hover:text-white transition">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="max-w-5xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 text-center md:text-left">
+                <p class="text-brand-400 font-medium mb-2">Hola, soy</p>
+                <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">Alejandro Villa</h1>
+                <p class="text-xl text-gray-400 mb-6">Aspiring <span class="text-brand-400 font-semibold">AI Engineer</span></p>
+                <p class="text-gray-400 leading-relaxed mb-8 max-w-lg">
+                    Estudiante de Ingeniería en Ciencia de Datos (ITM) y Desarrollo de Software (Riwi).
+                    Me apasiona crear agentes inteligentes, sistemas con RAG y soluciones que usen IA para resolver problemas reales.
+                </p>
+                <div class="flex gap-4 justify-center md:justify-start">
+                    <a href="proyectos.html" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-6 py-3 rounded-lg transition">Ver proyectos</a>
+                    <a href="contacto.html" class="border border-gray-600 hover:border-brand-500 text-gray-300 hover:text-white font-semibold px-6 py-3 rounded-lg transition">Contacto</a>
+                </div>
+            </div>
+            <div class="flex-shrink-0">
+                <div class="w-48 h-48 md:w-56 md:h-56 rounded-full bg-gradient-to-br from-brand-600 to-brand-900 flex items-center justify-center text-6xl font-bold text-white">
+                    AV
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-900/50 border-y border-gray-800">
+            <div class="max-w-5xl mx-auto px-4 py-16">
+                <h2 class="text-2xl font-bold text-white mb-8 text-center">Skills &amp; Tecnologías</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">HTML &amp; CSS</p>
+                        <p class="text-xs text-brand-400 mb-1">Comfortable</p>
+                        <p class="text-sm text-gray-400">Semántico, responsive, Grid, Flexbox</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">Bootstrap / Tailwind</p>
+                        <p class="text-xs text-brand-400 mb-1">Comfortable</p>
+                        <p class="text-sm text-gray-400">Frameworks CSS, utility-first</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">Git &amp; GitHub</p>
+                        <p class="text-xs text-brand-400 mb-1">Comfortable</p>
+                        <p class="text-sm text-gray-400">Versionado, branches, Pages</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">Herramientas IA</p>
+                        <p class="text-xs text-brand-400 mb-1">Comfortable</p>
+                        <p class="text-sm text-gray-400">Claude, ChatGPT, Cursor</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">Python</p>
+                        <p class="text-xs text-yellow-400 mb-1">Learning</p>
+                        <p class="text-sm text-gray-400">Scripting, FastAPI, agentes</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">LangChain / RAG</p>
+                        <p class="text-xs text-yellow-400 mb-1">Learning</p>
+                        <p class="text-sm text-gray-400">Agentes, LLMs, vector stores</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">JavaScript</p>
+                        <p class="text-xs text-yellow-400 mb-1">Learning</p>
+                        <p class="text-sm text-gray-400">Fundamentos, DOM</p>
+                    </div>
+                    <div class="bg-gray-800/60 rounded-lg p-4 text-center hover:bg-gray-800 transition">
+                        <p class="font-semibold text-white">SQL / Supabase</p>
+                        <p class="text-xs text-yellow-400 mb-1">Learning</p>
+                        <p class="text-sm text-gray-400">PostgreSQL, auth</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-5xl mx-auto px-4 py-16">
+            <h2 class="text-2xl font-bold text-white mb-2 text-center">Proyectos destacados</h2>
+            <p class="text-gray-400 text-center mb-8">Los que mejor representan mi perfil</p>
+            <div class="grid md:grid-cols-2 gap-6">
+                <a href="proyectos.html" class="block bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-brand-600 transition group">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-2xl">🤖</span>
+                        <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition">MarketIntelligenceAgent</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">Terminal financiera inteligente con IA. Consulta acciones, cripto y datos macro en lenguaje natural con RAG y agentes.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">Python</span>
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">LangChain</span>
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">FastAPI</span>
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">Supabase</span>
+                    </div>
+                </a>
+                <a href="proyectos.html" class="block bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-brand-600 transition group">
+                    <div class="flex items-center gap-3 mb-3">
+                        <span class="text-2xl">🚲</span>
+                        <h3 class="text-lg font-bold text-white group-hover:text-brand-400 transition">Rueda Libre</h3>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-4">Sitio multipágina responsive para alquiler de bicicletas. Migrado de CSS propio a Bootstrap con comparativa documentada.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">HTML</span>
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">CSS</span>
+                        <span class="text-xs bg-brand-950 text-brand-400 px-2 py-1 rounded-full">Bootstrap</span>
+                    </div>
+                </a>
+            </div>
+            <p class="text-center mt-8">
+                <a href="proyectos.html" class="text-brand-400 hover:text-brand-300 font-medium transition">Ver todos los proyectos →</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-gray-800 mt-8">
+        <div class="max-w-5xl mx-auto px-4 py-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+            <p>&copy; 2026 Alejandro Villa</p>
+            <div class="flex gap-6">
+                <a href="https://github.com/AlejandroVilla06" target="_blank" class="hover:text-white transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/alejandro-villa-higuita-/" target="_blank" class="hover:text-white transition">LinkedIn</a>
+                <a href="contacto.html" class="hover:text-white transition">Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

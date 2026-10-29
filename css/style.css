@@ -1,0 +1,10 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+    background-color: rgba(59, 158, 255, 0.3);
+    color: #fff;
+}
